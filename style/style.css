@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+html h1, body h1 {
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 600;
+  background: rgb(0, 132, 255);
+  color: white;
+  margin: 0;
+  padding: 2%;
+  box-shadow: 0px 4px 8px black;
+}
+html h1 button, body h1 button {
+  background: rgb(0, 132, 255);
+  border: none;
+}
+html h1 button a, body h1 button a {
+  color: white;
+}
+html .btns, body .btns {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+html .btns button, body .btns button {
+  margin: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 132, 255);
+  color: white;
+  border-radius: 30px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+html .btns button img, body .btns button img {
+  height: 60px;
+}
+html .btns button a, body .btns button a {
+  color: white;
+  text-decoration: none;
+}
+html .btns button:hover, body .btns button:hover {
+  box-shadow: 0px 4px 8px black;
+}
+html .content h2, body .content h2 {
+  font-family: sans-serif;
+}
+html .content p, body .content p {
+  font-family: sans-serif;
+}
+html .content p a, body .content p a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+html .content button, body .content button {
+  background: rgb(0, 132, 255);
+  color: white;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1%;
+}
+html .content button:hover, body .content button:hover {
+  box-shadow: 0px 4px 8px black;
+}
+html .content2 h2, body .content2 h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+html .content2 a, body .content2 a {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 132, 255);
+}/*# sourceMappingURL=style.css.map */

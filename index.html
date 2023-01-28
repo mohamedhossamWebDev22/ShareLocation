@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>My Location</title>
+
+        <link rel="stylesheet" href="./style/style.css">
+
+        <link rel="shortcut icon" href="./imgs/watch.png" type="image/x-icon">
+    </head>
+    <body>
+        <h1>My Location</h1>
+
+        <div class="btns">
+            <button id="watch"><img src="./imgs/watch.png" alt="watch">
+                <a href="watch.html">Watch location</a>
+            </button>
+            <button id="share"><img src="./imgs/share.png" alt="share">
+                <a href="share.html">Share my location</a>
+            </button>
+        </div>
+
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+        
+        <script src="./js/app.js" type="module"></script>
+    </body>
+</html>

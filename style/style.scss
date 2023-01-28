@@ -1,0 +1,117 @@
+$color1: rgb(0, 132, 255);
+
+html, body{
+    margin: 0;
+    padding: 0;
+
+    scroll-behavior: smooth;
+
+    text-align: center;
+    
+    h1{
+        font-size: 35px;
+        font-family: sans-serif;
+        font-weight: 600;
+
+        background: $color1;
+        color: white;
+
+        margin: 0;
+        padding: 2%;
+
+        box-shadow: 0px 4px 8px black;
+        button{
+            background: $color1;
+            border: none;
+
+            a{
+                color: white;
+            }
+        }
+    }
+
+    .btns{
+        text-align: center;
+
+        display: flex;
+
+        justify-content: center;
+        align-content: center;
+
+        flex-direction: column;
+
+        flex-wrap: wrap;
+        button{
+            margin: 3%;
+
+            padding-top: 1%;
+            padding-bottom: 1%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: $color1;
+            color: white;
+
+            border-radius: 30px;
+
+            font-size: 25px;
+            font-family: sans-serif;
+            img{
+                height: 60px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+
+            &:hover{
+                box-shadow: 0px 4px 8px black;
+            }
+        }
+    }
+
+    .content{
+        h2{
+            font-family: sans-serif;
+        }
+        p{
+            font-family: sans-serif;
+            a{
+                text-decoration: underline;
+                font-weight: bold
+            }
+        }
+        button{
+            background: $color1;
+            color: white;
+
+            font-size: 20px;
+
+            border: 2px solid black;
+            border-radius: 10px;
+
+            padding: 1%;
+
+            &:hover{
+                box-shadow: 0px 4px 8px black;
+            }
+        }        
+    }
+
+    .content2{
+        h2{
+            font-family: sans-serif;
+            font-size: 30px;
+        }
+        a{
+            font-family: sans-serif;
+            font-size: 20px;
+
+            text-decoration: none;
+
+            color: $color1;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>My Location</title>
+
+        <link rel="stylesheet" href="./style/style.css">
+
+        <link rel="shortcut icon" href="./imgs/share.png" type="image/x-icon">
+    </head>
+    <body>
+        <h1><button><a href="./index.html">Back</a></button>
+            My Location</h1>
+
+        <div class="content">
+            <h2>Share My Location!!</h2>
+
+            <button id="makeId">Make ID</button>
+            <p>your ID: <a id="id"></a></p>
+
+            <button id="doShare">share</button>
+
+            <div id="map"></div>
+        </div>
+
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+
+        <script src="./js/share.js" type="module"></script>
+    </body>
+</html>
